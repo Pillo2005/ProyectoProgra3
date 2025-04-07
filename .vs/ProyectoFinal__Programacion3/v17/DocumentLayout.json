@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|solutionrelative:login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|c:\\users\\usuario\\documents\\proyectoprogra3\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|solutionrelative:login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
@@ -23,10 +27,6 @@
       "RelativeMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|solutionrelative:frmproductos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|solutionrelative:login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\conexion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|solutionrelative:conexion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
@@ -42,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "FrmProductos.vb [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\FrmProductos.vb",
               "RelativeDocumentMoniker": "FrmProductos.vb",
@@ -56,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FrmMenuPrincipal.vb",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\FrmMenuPrincipal.vb",
               "RelativeDocumentMoniker": "FrmMenuPrincipal.vb",
@@ -68,13 +68,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Login.vb",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\Login.vb",
               "RelativeDocumentMoniker": "Login.vb",
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\Login.vb",
               "RelativeToolTip": "Login.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-04-07T21:05:44.982Z",
               "EditorCaption": ""
@@ -93,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ModuloGlobal.vb",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\ModuloGlobal.vb",
               "RelativeDocumentMoniker": "ModuloGlobal.vb",
@@ -105,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Login.vb [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\Login.vb",
               "RelativeDocumentMoniker": "Login.vb",
@@ -117,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "FrmMenuPrincipal.vb [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\FrmMenuPrincipal.vb",
               "RelativeDocumentMoniker": "FrmMenuPrincipal.vb",

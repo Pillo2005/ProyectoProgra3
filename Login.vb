@@ -3,7 +3,7 @@ Public Class Login
 
     Dim conBD As Conexion = New Conexion()
     Private Sub btnIngresar_Click(sender As Object, e As EventArgs) Handles btnIngresar.Click
-
+        'Esto es una prueba
         Dim consulta As String = "SELECT * FROM Empleados WHERE Usuario=@usuario AND Contraseña=@contraseña"
         Dim conexion As SqlConnection = conBD.Conectar()
         Dim cmd As New SqlCommand(consulta, conexion)
