@@ -45,9 +45,9 @@ Partial Class FrmMenuPrincipal
         'btnClientes
         '
         Me.btnClientes.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnClientes.Location = New System.Drawing.Point(130, 165)
+        Me.btnClientes.Location = New System.Drawing.Point(106, 165)
         Me.btnClientes.Name = "btnClientes"
-        Me.btnClientes.Size = New System.Drawing.Size(102, 38)
+        Me.btnClientes.Size = New System.Drawing.Size(126, 38)
         Me.btnClientes.TabIndex = 1
         Me.btnClientes.Text = "Clientes"
         Me.btnClientes.UseVisualStyleBackColor = True
@@ -65,9 +65,9 @@ Partial Class FrmMenuPrincipal
         'btnEmpleados
         '
         Me.btnEmpleados.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnEmpleados.Location = New System.Drawing.Point(262, 165)
+        Me.btnEmpleados.Location = New System.Drawing.Point(250, 165)
         Me.btnEmpleados.Name = "btnEmpleados"
-        Me.btnEmpleados.Size = New System.Drawing.Size(102, 38)
+        Me.btnEmpleados.Size = New System.Drawing.Size(131, 38)
         Me.btnEmpleados.TabIndex = 3
         Me.btnEmpleados.Text = "Empleados"
         Me.btnEmpleados.UseVisualStyleBackColor = True

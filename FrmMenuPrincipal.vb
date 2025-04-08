@@ -6,6 +6,7 @@
         ' Mostrar/Ocultar módulos según el rol
         If ModuloGlobal.RolUsuario = "Vendedor" Then
             btnEmpleados.Enabled = False
+            btnEmpleados.BackColor = Color.LightCoral
             btnReportes.Enabled = True ' Si quieres que también puedan ver reportes
         End If
 
@@ -24,7 +25,7 @@
     End Sub
 
     Private Sub btnEmpleados_Click(sender As Object, e As EventArgs) Handles btnEmpleados.Click
-        'FrmEmpleados.Show()
+        FrmEmpleados.Show()
     End Sub
 
     Private Sub btnReportes_Click(sender As Object, e As EventArgs) Handles btnReportes.Click
