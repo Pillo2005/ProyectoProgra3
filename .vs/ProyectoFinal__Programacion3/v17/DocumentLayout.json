@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|c:\\users\\usuario\\documents\\proyectoprogra3\\frmhistorialcompras.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|solutionrelative:frmhistorialcompras.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|c:\\users\\usuario\\documents\\proyectoprogra3\\frmhistorialcompras.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|solutionrelative:frmhistorialcompras.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|c:\\users\\usuario\\documents\\proyectoprogra3\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|solutionrelative:login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|c:\\users\\usuario\\documents\\proyectoprogra3\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|solutionrelative:login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|c:\\users\\usuario\\documents\\proyectoprogra3\\frmclientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|solutionrelative:frmclientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\moduloglobal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|solutionrelative:moduloglobal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\conexion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|solutionrelative:conexion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|c:\\users\\usuario\\documents\\proyectoprogra3\\frmclientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|solutionrelative:frmclientes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|solutionrelative:login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\frmmenuprincipal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
@@ -27,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|solutionrelative:frmproductos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\conexion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|solutionrelative:conexion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\frmproductos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{C26495D4-F780-4121-B776-EE2B3DDB70AC}|ProyectoFinal__Programacion3.vbproj|solutionrelative:frmproductos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
@@ -42,46 +58,74 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FrmProductos.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\FrmProductos.vb",
-              "RelativeDocumentMoniker": "FrmProductos.vb",
-              "ToolTip": "D:\\Progra 3\\ProyectoFinal__Programacion3\\FrmProductos.vb [Dise\u00F1o]",
+              "DocumentIndex": 0,
+              "Title": "FrmHistorialCompras.vb",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\FrmHistorialCompras.vb",
+              "RelativeDocumentMoniker": "FrmHistorialCompras.vb",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\FrmHistorialCompras.vb",
+              "RelativeToolTip": "FrmHistorialCompras.vb",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-04-07T22:16:14.492Z"
+              "WhenOpened": "2025-04-08T05:17:25.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmHistorialCompras.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\FrmHistorialCompras.vb",
+              "RelativeDocumentMoniker": "FrmHistorialCompras.vb",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\FrmHistorialCompras.vb [Dise\u00F1o]",
+              "RelativeToolTip": "FrmHistorialCompras.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-08T05:14:09.357Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "FrmMenuPrincipal.vb",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\FrmMenuPrincipal.vb",
-              "RelativeDocumentMoniker": "FrmMenuPrincipal.vb",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\FrmMenuPrincipal.vb",
-              "RelativeToolTip": "FrmMenuPrincipal.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "FrmClientes.vb",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\FrmClientes.vb",
+              "RelativeDocumentMoniker": "FrmClientes.vb",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\FrmClientes.vb",
+              "RelativeToolTip": "FrmClientes.vb",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAwwGMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-04-07T21:37:10.259Z"
+              "WhenOpened": "2025-04-08T04:31:42.22Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "FrmClientes.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\FrmClientes.vb",
+              "RelativeDocumentMoniker": "FrmClientes.vb",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\FrmClientes.vb [Dise\u00F1o]",
+              "RelativeToolTip": "FrmClientes.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-08T04:17:37.383Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Login.vb",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\Login.vb",
               "RelativeDocumentMoniker": "Login.vb",
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\Login.vb",
               "RelativeToolTip": "Login.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-04-07T21:05:44.982Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Conexion.vb",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\Conexion.vb",
               "RelativeDocumentMoniker": "Conexion.vb",
@@ -89,23 +133,25 @@
               "RelativeToolTip": "Conexion.vb",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-04-07T20:56:16.927Z"
+              "WhenOpened": "2025-04-07T20:56:16.927Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ModuloGlobal.vb",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\ModuloGlobal.vb",
               "RelativeDocumentMoniker": "ModuloGlobal.vb",
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\ModuloGlobal.vb",
               "RelativeToolTip": "ModuloGlobal.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-04-07T20:53:44.057Z"
+              "WhenOpened": "2025-04-07T20:53:44.057Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Login.vb [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\Login.vb",
               "RelativeDocumentMoniker": "Login.vb",
@@ -117,25 +163,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "FrmMenuPrincipal.vb [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\FrmMenuPrincipal.vb",
               "RelativeDocumentMoniker": "FrmMenuPrincipal.vb",
-              "ToolTip": "D:\\Progra 3\\ProyectoFinal__Programacion3\\FrmMenuPrincipal.vb [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\FrmMenuPrincipal.vb [Dise\u00F1o]",
+              "RelativeToolTip": "FrmMenuPrincipal.vb [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-04-07T21:28:38.95Z"
+              "WhenOpened": "2025-04-07T21:28:38.95Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
+              "Title": "FrmMenuPrincipal.vb",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\FrmMenuPrincipal.vb",
+              "RelativeDocumentMoniker": "FrmMenuPrincipal.vb",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\FrmMenuPrincipal.vb",
+              "RelativeToolTip": "FrmMenuPrincipal.vb",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-07T21:37:10.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FrmProductos.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\FrmProductos.vb",
+              "RelativeDocumentMoniker": "FrmProductos.vb",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\FrmProductos.vb [Dise\u00F1o]",
+              "RelativeToolTip": "FrmProductos.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-07T22:16:14.492Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "FrmProductos.vb",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\FrmProductos.vb",
               "RelativeDocumentMoniker": "FrmProductos.vb",
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\ProyectoProgra3\\FrmProductos.vb",
               "RelativeToolTip": "FrmProductos.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAADwvxUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-04-07T22:45:27.796Z"
+              "WhenOpened": "2025-04-07T22:45:27.796Z",
+              "EditorCaption": ""
             }
           ]
         }

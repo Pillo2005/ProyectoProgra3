@@ -27,3 +27,5 @@ C:\Users\USUARIO\Documents\ProyectoProgra3\obj\Debug\ProyectoFinal__Programacion
 C:\Users\USUARIO\Documents\ProyectoProgra3\obj\Debug\ProyectoFinal__Programacion3.exe
 C:\Users\USUARIO\Documents\ProyectoProgra3\obj\Debug\ProyectoFinal__Programacion3.xml
 C:\Users\USUARIO\Documents\ProyectoProgra3\obj\Debug\ProyectoFinal__Programacion3.pdb
+C:\Users\USUARIO\Documents\ProyectoProgra3\obj\Debug\ProyectoFinal__Programacion3.FrmClientes.resources
+C:\Users\USUARIO\Documents\ProyectoProgra3\obj\Debug\ProyectoFinal__Programacion3.lblBienvenida.resources

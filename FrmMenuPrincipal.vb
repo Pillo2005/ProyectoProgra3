@@ -20,7 +20,7 @@
     End Sub
 
     Private Sub btnClientes_Click(sender As Object, e As EventArgs) Handles btnClientes.Click
-        'FrmClientes.Show()
+        FrmClientes.Show()
     End Sub
 
     Private Sub btnEmpleados_Click(sender As Object, e As EventArgs) Handles btnEmpleados.Click

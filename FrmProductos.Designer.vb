@@ -28,12 +28,12 @@ Partial Class FrmProductos
         Me.txtPrecio = New System.Windows.Forms.TextBox()
         Me.txtStock = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.cboCategoria = New System.Windows.Forms.ComboBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.cboCategoria = New System.Windows.Forms.ComboBox()
         Me.dgvProductos = New System.Windows.Forms.DataGridView()
         Me.btnGuardar = New System.Windows.Forms.Button()
         Me.btnActualizar = New System.Windows.Forms.Button()
@@ -56,7 +56,7 @@ Partial Class FrmProductos
         'txtIdProducto
         '
         Me.txtIdProducto.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtIdProducto.Location = New System.Drawing.Point(120, 21)
+        Me.txtIdProducto.Location = New System.Drawing.Point(129, 20)
         Me.txtIdProducto.Name = "txtIdProducto"
         Me.txtIdProducto.Size = New System.Drawing.Size(129, 27)
         Me.txtIdProducto.TabIndex = 1
@@ -64,7 +64,7 @@ Partial Class FrmProductos
         'txtNombre
         '
         Me.txtNombre.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtNombre.Location = New System.Drawing.Point(120, 55)
+        Me.txtNombre.Location = New System.Drawing.Point(129, 55)
         Me.txtNombre.Name = "txtNombre"
         Me.txtNombre.Size = New System.Drawing.Size(129, 27)
         Me.txtNombre.TabIndex = 2
@@ -72,7 +72,7 @@ Partial Class FrmProductos
         'txtPrecio
         '
         Me.txtPrecio.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPrecio.Location = New System.Drawing.Point(120, 122)
+        Me.txtPrecio.Location = New System.Drawing.Point(129, 122)
         Me.txtPrecio.Name = "txtPrecio"
         Me.txtPrecio.Size = New System.Drawing.Size(129, 27)
         Me.txtPrecio.TabIndex = 3
@@ -80,7 +80,7 @@ Partial Class FrmProductos
         'txtStock
         '
         Me.txtStock.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtStock.Location = New System.Drawing.Point(120, 157)
+        Me.txtStock.Location = New System.Drawing.Point(129, 155)
         Me.txtStock.Name = "txtStock"
         Me.txtStock.Size = New System.Drawing.Size(129, 27)
         Me.txtStock.TabIndex = 4
@@ -103,44 +103,15 @@ Partial Class FrmProductos
         Me.GroupBox1.TabIndex = 5
         Me.GroupBox1.TabStop = False
         '
-        'cboCategoria
+        'Label6
         '
-        Me.cboCategoria.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cboCategoria.FormattingEnabled = True
-        Me.cboCategoria.Location = New System.Drawing.Point(120, 88)
-        Me.cboCategoria.Name = "cboCategoria"
-        Me.cboCategoria.Size = New System.Drawing.Size(129, 28)
-        Me.cboCategoria.TabIndex = 5
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(15, 27)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(99, 20)
-        Me.Label2.TabIndex = 6
-        Me.Label2.Text = "Id Producto:"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(15, 58)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(73, 20)
-        Me.Label3.TabIndex = 7
-        Me.Label3.Text = "Nombre:"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(15, 91)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(86, 20)
-        Me.Label4.TabIndex = 8
-        Me.Label4.Text = "Categoria:"
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(15, 157)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(56, 20)
+        Me.Label6.TabIndex = 10
+        Me.Label6.Text = "Stock:"
         '
         'Label5
         '
@@ -152,24 +123,53 @@ Partial Class FrmProductos
         Me.Label5.TabIndex = 9
         Me.Label5.Text = "Precio:"
         '
-        'Label6
+        'Label4
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(15, 157)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(56, 20)
-        Me.Label6.TabIndex = 10
-        Me.Label6.Text = "Stock:"
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(15, 91)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(86, 20)
+        Me.Label4.TabIndex = 8
+        Me.Label4.Text = "Categoria:"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(15, 58)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(73, 20)
+        Me.Label3.TabIndex = 7
+        Me.Label3.Text = "Nombre:"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(15, 27)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(99, 20)
+        Me.Label2.TabIndex = 6
+        Me.Label2.Text = "Id Producto:"
+        '
+        'cboCategoria
+        '
+        Me.cboCategoria.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboCategoria.FormattingEnabled = True
+        Me.cboCategoria.Location = New System.Drawing.Point(129, 88)
+        Me.cboCategoria.Name = "cboCategoria"
+        Me.cboCategoria.Size = New System.Drawing.Size(129, 28)
+        Me.cboCategoria.TabIndex = 5
         '
         'dgvProductos
         '
         Me.dgvProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvProductos.Location = New System.Drawing.Point(-13, 327)
+        Me.dgvProductos.Location = New System.Drawing.Point(7, 337)
         Me.dgvProductos.Name = "dgvProductos"
         Me.dgvProductos.RowHeadersWidth = 51
         Me.dgvProductos.RowTemplate.Height = 24
-        Me.dgvProductos.Size = New System.Drawing.Size(801, 129)
+        Me.dgvProductos.Size = New System.Drawing.Size(755, 146)
         Me.dgvProductos.TabIndex = 11
         '
         'btnGuardar
@@ -216,7 +216,7 @@ Partial Class FrmProductos
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 471)
+        Me.ClientSize = New System.Drawing.Size(765, 494)
         Me.Controls.Add(Me.btnGuardar)
         Me.Controls.Add(Me.btnActualizar)
         Me.Controls.Add(Me.btnEliminar)
