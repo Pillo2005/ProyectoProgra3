@@ -14,10 +14,13 @@ Public Class Login
 
         If lector.Read() Then
             Dim rol As String = lector("Rol").ToString()
+            Dim id As Integer = lector("idEmpleado")
 
-            ' Guardar datos globales si lo necesitas
+
+            ' Guardar datos globales 
             ModuloGlobal.NombreUsuario = lector("Usuario").ToString()
             ModuloGlobal.RolUsuario = rol
+            ModuloGlobal.idEmpleado = id
 
             MsgBox("Bienvenido " & rol, MsgBoxStyle.Information, "Acceso correcto")
 

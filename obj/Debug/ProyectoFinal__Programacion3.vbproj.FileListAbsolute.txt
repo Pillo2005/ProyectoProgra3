@@ -30,3 +30,4 @@ C:\Users\USUARIO\Documents\ProyectoProgra3\obj\Debug\ProyectoFinal__Programacion
 C:\Users\USUARIO\Documents\ProyectoProgra3\obj\Debug\ProyectoFinal__Programacion3.FrmClientes.resources
 C:\Users\USUARIO\Documents\ProyectoProgra3\obj\Debug\ProyectoFinal__Programacion3.lblBienvenida.resources
 C:\Users\USUARIO\Documents\ProyectoProgra3\obj\Debug\ProyectoFinal__Programacion3.FrmEmpleados.resources
+C:\Users\USUARIO\Documents\ProyectoProgra3\obj\Debug\ProyectoFinal__Programacion3.FrmVentas.resources
