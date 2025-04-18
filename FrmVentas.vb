@@ -8,6 +8,15 @@ Public Class FrmVentas
         txtEmpleado.Text = ModuloGlobal.NombreUsuario
 
         dtpFecha.Value = DateTime.Now
+
+        With dgvDetalleVenta
+            .Columns.Clear()
+            .Columns.Add("IdProducto", "IdProducto")
+            .Columns.Add("Nombre", "Nombre")
+            .Columns.Add("Precio", "Precio")
+            .Columns.Add("Cantidad", "Cantidad")
+            .Columns.Add("PrecioUnitario", "PrecioUnitario")
+        End With
     End Sub
 
     Private Sub CargarClientes()
@@ -63,9 +72,9 @@ Public Class FrmVentas
             End If
         Next
 
-        Dim subtotal As Decimal = cantidad * precio
+        Dim preciounitario As Decimal = cantidad * precio
 
-        dgvDetalleVenta.Rows.Add(idProducto, nombre, precio, cantidad, subtotal)
+        dgvDetalleVenta.Rows.Add(idProducto, nombre, precio, cantidad, preciounitario)
 
         CalcularTotal()
         txtCantidad.Clear()
@@ -75,12 +84,66 @@ Public Class FrmVentas
         Dim total As Decimal = 0
 
         For Each fila As DataGridViewRow In dgvDetalleVenta.Rows
-            total += Convert.ToDecimal(fila.Cells("Subtotal").Value)
+            total += Convert.ToDecimal(fila.Cells("PrecioUnitario").Value)
         Next
 
-        '' txtTotal.Text = total.ToString("F2")
+         txtTotal.Text = total.ToString("F2")
     End Sub
 
+    Private Sub btnGuardarVenta_Click(sender As Object, e As EventArgs) Handles btnGuardarVenta.Click
+
+        If dgvDetalleVenta.Rows.Count = 0 Then
+            MessageBox.Show("Debe agregar al menos un producto a la venta.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            Exit Sub
+        End If
+
+        Dim conexion As SqlConnection = conBD.Conectar()
+
+        Try
+            ' Insertar en tabla Ventas
+            Dim cmdVenta As New SqlCommand("INSERT INTO Ventas (Fecha, IdCliente, IdEmpleado, Total) OUTPUT INSERTED.IdVenta VALUES (@Fecha, @IdCliente, @IdEmpleado, @Total)", conexion)
+            cmdVenta.Parameters.AddWithValue("@Fecha", dtpFecha.Value)
+            cmdVenta.Parameters.AddWithValue("@IdCliente", Convert.ToInt32(cboCliente.SelectedValue))
+            cmdVenta.Parameters.AddWithValue("@IdEmpleado", ModuloGlobal.idEmpleado)
+            cmdVenta.Parameters.AddWithValue("@Total", Convert.ToDecimal(txtTotal.Text))
+
+            Dim idVentaGenerado As Integer = Convert.ToInt32(cmdVenta.ExecuteScalar())
+
+            ' Insertar cada producto en DetalleVenta (individualmente)
+            For Each fila As DataGridViewRow In dgvDetalleVenta.Rows
+                Try
+                    Dim idProducto As Integer = Convert.ToInt32(fila.Cells("IdProducto").Value)
+
+                    ' Insertar en DetalleVenta
+                    Dim cmdDetalle As New SqlCommand("INSERT INTO DetalleVenta (IdVenta, IdProducto, Cantidad, PrecioUnitario) VALUES (@IdVenta, @IdProducto, @Cantidad, @PrecioUnitario)", conexion)
+                    cmdDetalle.Parameters.AddWithValue("@IdVenta", idVentaGenerado)
+                    cmdDetalle.Parameters.AddWithValue("@IdProducto", idProducto)
+                    cmdDetalle.Parameters.AddWithValue("@Cantidad", Convert.ToInt32(fila.Cells("Cantidad").Value))
+                    cmdDetalle.Parameters.AddWithValue("@PrecioUnitario", Convert.ToDecimal(fila.Cells("PrecioUnitario").Value))
+                    cmdDetalle.ExecuteNonQuery()
+
+                    ' Actualizar stock del producto
+                    Dim cmdStock As New SqlCommand("UPDATE Productos SET Stock = Stock - @Cantidad WHERE IdProducto = @IdProducto", conexion)
+                    cmdStock.Parameters.AddWithValue("@Cantidad", Convert.ToInt32(fila.Cells("Cantidad").Value))
+                    cmdStock.Parameters.AddWithValue("@IdProducto", idProducto)
+                    cmdStock.ExecuteNonQuery()
+
+                Catch exDetalle As Exception
+                    MessageBox.Show("Error en producto con ID " & fila.Cells("IdProducto").Value & ": " & exDetalle.Message, "Error parcial", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+                End Try
+            Next
+
+            MessageBox.Show("Venta registrada (parcial o completa).", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            ' LimpiarFormulario() (si tienes uno)
+            CargarProductos()
+
+        Catch ex As Exception
+            MessageBox.Show("Error general al guardar la venta: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        Finally
+            conexion.Close()
+        End Try
+
+    End Sub
 
 
 

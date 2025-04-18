@@ -36,7 +36,11 @@ Partial Class FrmVentas
         Me.txtCantidad = New System.Windows.Forms.TextBox()
         Me.dgvProductos = New System.Windows.Forms.DataGridView()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.txtTotal = New System.Windows.Forms.TextBox()
+        Me.btnGuardarVenta = New System.Windows.Forms.Button()
         Me.dgvDetalleVenta = New System.Windows.Forms.DataGridView()
+        Me.Label6 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         CType(Me.dgvProductos, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -64,7 +68,7 @@ Partial Class FrmVentas
         Me.GroupBox1.Controls.Add(Me.cboCliente)
         Me.GroupBox1.Location = New System.Drawing.Point(12, 122)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(760, 122)
+        Me.GroupBox1.Size = New System.Drawing.Size(825, 122)
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
         '
@@ -130,7 +134,7 @@ Partial Class FrmVentas
         Me.GroupBox2.Controls.Add(Me.dgvProductos)
         Me.GroupBox2.Location = New System.Drawing.Point(12, 263)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(760, 196)
+        Me.GroupBox2.Size = New System.Drawing.Size(825, 196)
         Me.GroupBox2.TabIndex = 2
         Me.GroupBox2.TabStop = False
         '
@@ -157,9 +161,9 @@ Partial Class FrmVentas
         'txtCantidad
         '
         Me.txtCantidad.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCantidad.Location = New System.Drawing.Point(649, 21)
+        Me.txtCantidad.Location = New System.Drawing.Point(670, 21)
         Me.txtCantidad.Name = "txtCantidad"
-        Me.txtCantidad.Size = New System.Drawing.Size(100, 27)
+        Me.txtCantidad.Size = New System.Drawing.Size(127, 27)
         Me.txtCantidad.TabIndex = 1
         '
         'dgvProductos
@@ -174,12 +178,43 @@ Partial Class FrmVentas
         '
         'GroupBox3
         '
+        Me.GroupBox3.Controls.Add(Me.Label7)
+        Me.GroupBox3.Controls.Add(Me.txtTotal)
+        Me.GroupBox3.Controls.Add(Me.btnGuardarVenta)
         Me.GroupBox3.Controls.Add(Me.dgvDetalleVenta)
         Me.GroupBox3.Location = New System.Drawing.Point(21, 498)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(751, 187)
+        Me.GroupBox3.Size = New System.Drawing.Size(816, 187)
         Me.GroupBox3.TabIndex = 3
         Me.GroupBox3.TabStop = False
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(563, 24)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(51, 20)
+        Me.Label7.TabIndex = 7
+        Me.Label7.Text = "Total:"
+        '
+        'txtTotal
+        '
+        Me.txtTotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtTotal.Location = New System.Drawing.Point(620, 21)
+        Me.txtTotal.Name = "txtTotal"
+        Me.txtTotal.Size = New System.Drawing.Size(149, 27)
+        Me.txtTotal.TabIndex = 10
+        '
+        'btnGuardarVenta
+        '
+        Me.btnGuardarVenta.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnGuardarVenta.Location = New System.Drawing.Point(560, 142)
+        Me.btnGuardarVenta.Name = "btnGuardarVenta"
+        Me.btnGuardarVenta.Size = New System.Drawing.Size(149, 38)
+        Me.btnGuardarVenta.TabIndex = 9
+        Me.btnGuardarVenta.Text = "Gaurdar Venta"
+        Me.btnGuardarVenta.UseVisualStyleBackColor = True
         '
         'dgvDetalleVenta
         '
@@ -191,11 +226,22 @@ Partial Class FrmVentas
         Me.dgvDetalleVenta.Size = New System.Drawing.Size(557, 169)
         Me.dgvDetalleVenta.TabIndex = 8
         '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(27, 486)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(140, 20)
+        Me.Label6.TabIndex = 6
+        Me.Label6.Text = "Carrito de Ventas"
+        '
         'FrmVentas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1091, 783)
+        Me.ClientSize = New System.Drawing.Size(849, 783)
+        Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
@@ -208,6 +254,7 @@ Partial Class FrmVentas
         Me.GroupBox2.PerformLayout()
         CType(Me.dgvProductos, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox3.ResumeLayout(False)
+        Me.GroupBox3.PerformLayout()
         CType(Me.dgvDetalleVenta, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -229,4 +276,8 @@ Partial Class FrmVentas
     Friend WithEvents dgvProductos As DataGridView
     Friend WithEvents GroupBox3 As GroupBox
     Friend WithEvents dgvDetalleVenta As DataGridView
+    Friend WithEvents btnGuardarVenta As Button
+    Friend WithEvents Label7 As Label
+    Friend WithEvents txtTotal As TextBox
+    Friend WithEvents Label6 As Label
 End Class
